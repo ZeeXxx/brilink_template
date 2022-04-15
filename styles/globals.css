@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #dfdfdf;
 }
 
 a {
@@ -11,6 +12,286 @@ a {
   text-decoration: none;
 }
 
+.link-a:hover{
+  color: #f06e20;
+}
+
 * {
   box-sizing: border-box;
+}
+
+.bg-biru{
+  background-color: #013161;
+  border-bottom: solid #ec6f24 3px;
+}
+
+.link-a{
+  color: orange !important;
+  font-weight: bold;
+}
+
+.text-size14{
+  font-size: 14px;
+}
+
+.bg-grey{
+  background-color: #dfdfdf;
+}
+
+.loginform-wrap {
+    width: 90%;
+    float: left;
+    min-height: 280px;
+    background-color: #efefef;
+    box-shadow: 0 9px 3px 0 rgb(204 204 204);
+    border: 1px solid #ccc;
+}
+
+.loginform {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 13px;
+}
+
+.loginform h2 {
+  color: #012d5a;
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.loginform input[type=password], .loginform input[type=text] {
+  border: 1px solid #aaa;
+  box-shadow: 0 1px 7px rgb(0 0 0 / 10%) inset;
+  padding: 5px;
+  width: 100%;
+  font-size: 11px;
+}
+
+.loginform button {
+  width: 100%;
+  margin: 15px auto 0;
+  text-align: center;
+  font-weight: lighter;
+  color: #012d5a;
+  background: linear-gradient(to bottom,#fafafa 0,#f4f4f4 40%,#e5e5e5 100%) rgba(0,0,0,0);
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px #ddd;
+  display: inline-block;
+  font-family: Helvetica,sans-serif;
+  font-size: 12px;
+  padding: 5px 14px;
+  transition: all .2s linear 0s;
+}
+
+.verisign {
+  float: left;
+  width: 40%;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.verisigntext {
+  float: left;
+  width: 55%;
+  margin-left: 2%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 10px;
+  color: #005298;
+  text-decoration: underline;
+}
+
+.verisigntext a {
+  color: #7b7b7b;
+}
+
+.relatedprod-wrap {
+  float: right;
+  min-height: 100px;
+  margin-top: 20px;
+}
+
+.separator {
+  margin-top: 5px;
+  width: 100%;
+  height: 0;
+  color: none;
+  background: 0 0;
+  border: none;
+  border-top: 1px solid rgba(0,0,0,.2);
+  border-bottom: 1px solid rgba(255,255,255,.2);
+}
+
+.logo-wrap {
+  float: left;
+  width: 100%;
+  min-height: 50px;
+  padding: 15px 0 0 15px;
+  margin-top: 5px;
+}
+
+.logo-wrap a.epay {
+  float: left;
+  width: 40%;
+  height: 22px;
+  margin-right: 10%;
+}
+
+.logo-wrap a.brilink {
+  float: left;
+  width: 40%;
+  height: 21px;
+}
+
+.slider.active {
+  display: block;
+}
+
+.slider.np1 {
+  background-image: url('../public/img/deposito_banner1.jpg');
+  background-size: cover;
+  width: 90%;
+  min-height: 280px;
+  border: 1px solid #ccc;
+}
+
+.semifooter-wrap {
+  width: 100%;
+  float: left;
+}
+
+.semifooter-item#new-feature {
+  width: 45%;
+}
+
+.semifooter-item {
+  min-height: 60px;
+  padding: 5px 15px 5px 5px;
+  float: left;
+}
+
+.semifooter-item h3 {
+  margin: 5px 0 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: #1f6aa4;
+  border-bottom: solid #1f6aa4 2px;
+}
+
+.semifooter-item p {
+  font-size: 11px;
+  margin: 5 0 0;
+  text-align: left;
+  color: gray;
+}
+
+.semifooter-item p {
+  font-size: 11px;
+  margin: 5 0 0;
+  text-align: left;
+  color: gray;
+}
+
+.semifooter-item#demo {
+  width: 53%;
+}
+
+#footer{
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #ee5;
+}
+
+.ribbonbottom {
+  background-color: #f06e20;
+  border-left: solid gray 1px;
+  border-right: solid gray 1px;
+  color: #fff;
+  font-family: verdana;
+  font-size: 10px;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+  -webkit-box-shadow: -5px 0 5px -5px #333, 5px 0 5px -5px #333;
+  -moz-box-shadow: -5px 0 5px -5px #333,5px 0 5px -5px #333;
+  box-shadow: -5px 0 5px -5px #333, 5px 0 5px -5px #333;
+}
+
+.grid {
+  width: 100%;
+  max-width: 1140px;
+  min-width: 755px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.col-1-2, .col-6-12 {
+  width: 50%;
+}
+[class*='col-'] {
+  float: left;
+  padding-right: 20px;
+}
+
+.ribfoot a:hover{
+  color: #f06e20;
+}
+
+#flag{
+  display: none;
+}
+
+@media (max-width: 575.98px) { 
+  .logo-for-mobile{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #flag{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .hidden-for-mobile{
+    display: none;
+  }
+
+  .loginform-wrap{
+    float: none;
+    margin: 0 auto;
+    min-height: 318px;
+  }
+
+  .loginform h2{
+    margin-top: 10px;
+  }
+
+  #footer {
+    height: 70px;
+    margin-top: 20px;
+    position: unset;
+  }
+
+  .grid {
+    min-width: 0;
+    margin: 0 0;
+  }
+
+  [class*='col-'] {
+    width: auto;
+    float: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 10px;
+  }
 }
