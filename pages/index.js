@@ -1,15 +1,28 @@
-
+import React, { useState } from 'react'
 import Footer from "../components/footer";
 import Hero from "../components/hero";
-import Login from "../components/login";
 import Navbar from "../components/navbar";
+import Tarif from "../components/tarif.js";
 
 export default function Home() {
+  const [login, setLogin] = useState(false)
+
+  function goToLogin(val){
+    if (val == true) {
+      setLogin(true)
+    }
+  }
   return (
     <>
       
       <Navbar />
-      <Hero />
+      {
+        !login ?
+          <Tarif goToLogin={(val)=>goToLogin(val)}/>
+        :
+          <Hero />
+
+      }
       <Footer />
     </>
   );
