@@ -34,7 +34,7 @@ export default function Tarif(props) {
               <label>&nbsp;Tarif Lama Rp 6.500/ Transaksi</label><br/>
               <p  className='text-secondary' id='error'></p>
               <br/>
-              <button type="submit" id='masuk' style={{width:'80px', padding:20, marginLeft:'80px', marginRight:'80px', borderRadius:'none', background:'#767676', fontWeight:'bold', color:'#fff' }}>Lanjut</button>
+              <button type="submit" id='masuk' style={{width:'120px', padding:10, marginLeft:'80px', marginRight:'80px', borderRadius:'80px', background:'#013161', fontWeight:'bold', color:'#fff' }}>Lanjut</button>
             </form>
             <div className="relatedprod-wrap mt-3">
                 <div className="separator mt-3" />

