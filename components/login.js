@@ -41,10 +41,8 @@ import React, { useState } from 'react'
         <div className="loginform-wrap">
           <form className="loginform" onSubmit={handleSubmit}>
             <h2>Login</h2>
-            <label>User ID*</label>
-            <input id='userId' name="userId" autoComplete="off" maxLength={23} type="text" style={{marginBottom: '5px'}} form="loginform" onChange={handleInputChange} />
-            <label>Password*</label>
-            <input id='password' name="password" autoComplete="off" maxLength={20} type="password" style={{marginBottom: '5px'}} form="loginform" onChange={handleInputChange} />
+            <input id='userId' name="userId" autoComplete="off" maxLength={23} type="text" placeholder="User Id" style={{marginBottom: '5px'}} form="loginform" onChange={handleInputChange} />            
+            <input id='password' name="password" autoComplete="off" maxLength={20} type="password" placeholder="Password" style={{marginBottom: '5px'}} form="loginform" onChange={handleInputChange} />
             <div className="validation">							
               <input name="j_code" autoComplete="off" maxLength={4} type="text" placeholder="validation" style={{float: 'left', width: '40%', marginRight: '15px'}}/>
               <div id="simple_img" style={{float: 'left'}}>
