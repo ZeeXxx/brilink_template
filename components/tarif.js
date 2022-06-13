@@ -37,7 +37,7 @@ export default function Tarif(props) {
                 <p  className='text-light mt-3' id='error'></p>
               </div>
               <br/>
-              <button type="submit" id='masuk' style={{boxShadow:'none',width:'100%', padding:10, borderRadius:'5px', background:'#fefefe', fontWeight:'bold', color:'#133aeb' }}>Lanjut</button>
+              <button type="submit" id='masuk' style={{boxShadow:'none',width:'100%', padding:10, borderRadius:'5px', background:'#fefefe', fontWeight:'bold', color:'#013161' }}>Konfirmasi Layanan</button>
             </form>
             {/* <div className="relatedprod-wrap mt-3">
                 <div className="separator mt-3" />

