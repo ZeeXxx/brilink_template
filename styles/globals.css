@@ -75,21 +75,21 @@ a {
 }
 
 .loginform button {
-  width: 80%;
+  width: 100%;
   margin: 10px auto;
   text-align: center;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #fff;
-  background: #012d5a;
+  font-weight: lighter;
+  text-transform: capitalize;
+  color: #005298;
+  background: #fefefe;
   border: 1px solid #aaa;
-  border-radius: 20px;
+  border-radius: 5px;
   box-shadow: 0 1px 3px #ddd;
   display: flex;
   justify-content: center;
   font-family: Helvetica,sans-serif;
   font-size: 12px;
-  padding: 7px 14px;
+  padding: 5px 14px;
   transition: all .2s linear 0s;
 }
 

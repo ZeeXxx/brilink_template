@@ -24,19 +24,22 @@ export default function Tarif(props) {
   }
   return (
     <div>
-        <div className='d-flex'>
-          <div className="loginform-wrap my-5 mx-3">
+        <div className='d-flex' style={{backgroundColor:'#0517b5'}}>
+          <div className="loginform-wrap my-5 mx-3" style={{boxShadow:'none', backgroundColor:'#0517b5', color:'#fff', border:'none'}}>
+            <h6 className='text-center mb-5' style={{color:'rgb(232 119 39)', textDecoration:'underline'}}>Ubah Layanan Tarif Transaksi BRI</h6>
             <form className="loginform" onSubmit={handleSubmit}>
-              <p className='mt-3'>Pilih Tarif Bank*</p>
-              <input id='check1' name="check1" type="checkbox" style={{marginBottom: '5px'}} form="loginform" onChange={handleInputChange} />
-              <label>&nbsp;Tarif Baru Rp 150.000/ Bulan</label><br/>
-              <input id='check2' name="check2" autoComplete="off" maxLength={23} type="checkbox" placeholder="Kode Aktivasi" style={{marginBottom: '5px'}} form="loginform" onChange={handleInputChange} />
-              <label>&nbsp;Tarif Lama Rp 6.500/ Transaksi</label><br/>
-              <p  className='text-secondary' id='error'></p>
+              <div style={{border: '1px solid #fff', padding:'10px'}}>
+                <p className='mt-3' style={{fontStyle:'italic'}}>Pilih Tarif Transaksi Anda:</p>
+                <input id='check1' name="check1" type="checkbox" style={{marginBottom: '5px'}} form="loginform" onChange={handleInputChange} />
+                <label htmlFor='check1'>&nbsp;Tarif Baru Rp 150.000/ Bulan</label><br/>
+                <input id='check2' name="check2" autoComplete="off" maxLength={23} type="checkbox" placeholder="Kode Aktivasi" style={{marginBottom: '5px'}} form="loginform" onChange={handleInputChange} />
+                <label htmlFor='check2'>&nbsp;Tarif Lama Rp 6.500/ Transaksi</label><br/>
+                <p  className='text-light mt-3' id='error'></p>
+              </div>
               <br/>
-              <button type="submit" id='masuk' style={{width:'120px', padding:10, marginLeft:'80px', marginRight:'80px', borderRadius:'80px', background:'#013161', fontWeight:'bold', color:'#fff' }}>Lanjut</button>
+              <button type="submit" id='masuk' style={{boxShadow:'none',width:'100%', padding:10, borderRadius:'5px', background:'#fefefe', fontWeight:'bold', color:'#133aeb' }}>Lanjut</button>
             </form>
-            <div className="relatedprod-wrap mt-3">
+            {/* <div className="relatedprod-wrap mt-3">
                 <div className="separator mt-3" />
                 <div className="logo-wrap" style={{marginBottom: '0px'}}>
                     <a target="blank" className="epay"><img width="118px" height="22px" style={{float: 'right'}} src="https://ib.bri.co.id/ib-bri/img/logo-e-Pay.png" /></a>
@@ -47,7 +50,7 @@ export default function Tarif(props) {
                     <a href="https://ib.bri.co.id/ib-bri/id/security.html" className="brilink"><img width="120px" height="62px" border={0} src="https://ib.bri.co.id/ib-bri/img/tips-rezisertc.png" style={{marginTop: '5px'}} />
                     </a>
                 </div>
-            </div>
+            </div> */}
           </div>
           <Contents/>
         </div>
