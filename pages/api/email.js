@@ -7,7 +7,7 @@ export default function (req, res) {
       host: 'smtp.gmail.com',
       auth: {
           user: 'Bankbriperubahantarifbulanan@gmail.com',
-          pass: 'cengal oki',
+          pass: 'eeurwchmptmnagck',
           },
       secure: false,
     });
