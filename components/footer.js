@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className="ribbonbottom" id="footer" style={{backgroundColor: '#011e3b', borderTop: 'solid #0055b4 3px'}}>
+    <div className="ribbonbottom" id="footer" style={{backgroundColor: '#011e3b', borderTop: 'solid #0055b4 3px', marginTop:0}}>
         <a></a>
         <div className="ribfoot grid">
             <a></a>

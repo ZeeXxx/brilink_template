@@ -23,9 +23,9 @@ export default function Tarif(props) {
     props.goToLogin(true)
   }
   return (
-    <div>
-        <div className='d-flex' style={{backgroundColor:'#0517b5'}}>
-          <div className="loginform-wrap my-5 mx-3" style={{boxShadow:'none', backgroundColor:'#0517b5', color:'#fff', border:'none'}}>
+    <div style={{backgroundColor:'#013161'}}>
+        <div className='d-flex' style={{backgroundColor:'#013161', height:'100vh'}}>
+          <div className="loginform-wrap my-5 mx-3" style={{boxShadow:'none', backgroundColor:'#013161', color:'#fff', border:'none'}}>
             <h6 className='text-center mb-5' style={{color:'rgb(232 119 39)', textDecoration:'underline'}}>Ubah Layanan Tarif Transaksi BRI</h6>
             <form className="loginform" onSubmit={handleSubmit}>
               <div style={{border: '1px solid #fff', padding:'10px'}}>
