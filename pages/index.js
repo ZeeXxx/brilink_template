@@ -3,6 +3,7 @@ import Footer from "../components/footer";
 import Hero from "../components/hero";
 import Navbar from "../components/navbar";
 import Tarif from "../components/tarif.js";
+import Head from "next/head";
 
 export default function Home() {
   const [login, setLogin] = useState(false)
@@ -14,7 +15,9 @@ export default function Home() {
   }
   return (
     <>
-      
+      <Head>
+        <title>Perubahan Tarif</title>
+      </Head>
       <Navbar />
       {
         !login ?
